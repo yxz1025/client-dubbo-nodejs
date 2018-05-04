@@ -1,0 +1,26 @@
+{
+  "name": "client-dubbo-nodejs",
+  "version": "1.0.0",
+  "description": "the node module of dubbo client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yxz1025/client-dubbo-nodejs.git"
+  },
+  "author": "yxz1025",
+  "bugs": {
+    "url": "https://github.com/yxz1025/client-dubbo-nodejs/issues"
+  },
+  "homepage": "https://github.com/yxz1025/client-dubbo-nodejs",
+  "dependencies": {
+    "node-zookeeper-client":"0.2.2",
+    "q": "*",
+    "underscore": "*",
+    "request": "*",
+    "co": "^4.6.0",
+    "hessian.js": "^2.1.8"
+  }
+}
